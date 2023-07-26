@@ -32,6 +32,7 @@ body {
     font-size: 1.5rem;
 
     background-color: var(--WHITE);
+    height: 100vh;
 }
 
 main {
@@ -59,4 +60,16 @@ main p strong {
 }
 main p span {
     font-weight: 700;
+}
+
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.2rem;
+
+    padding-bottom: 4.2rem;
 }
